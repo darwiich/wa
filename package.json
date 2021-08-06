@@ -1,0 +1,25 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "this application gets you the weather of a city when you enter its zip code",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "weather",
+    "application"
+  ],
+  "author": "ali darwish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
